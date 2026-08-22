@@ -544,3 +544,7 @@ a {
 .research-context a:hover {
     color: #FFD400;
 }
+
+.research-section p {
+    text-align: justify;
+}
