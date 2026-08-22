@@ -1,83 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fazlu Rahman - Cosmologist</title>
-    <style>
-        body {
-            font-family: Open Sans, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: url('astro.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            max-width: 800px;
-            background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.3);
-            text-align: center;
-            border-radius: 10px;
-        }
-        .photo {
-            width: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-            border: 3px solid #fff; /* Optional: adds a white border to the photo */
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 1.1em;
-            font-weight: bold; /* Bold text */
-            text-decoration: none;
-            color: #fff; /* White text color */
-            background-color: transparent;
-            border: 2px solid #fff; /* White border */
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        .button:hover {
-            background-color: #fff; /* White background on hover */
-            color: #000; /* Black text color on hover */
-        }
-        .email {
-            margin-top: 20px;
-            font-size: 1.1em;
-        }
-        .email a {
-            color: #FFD400; /* Yellow color */
-            text-decoration: none;
-        }
-        .email a:hover {
-            text-decoration: underline;
-        }
-    </style>
+
+    <title>Fazlu Rahman | Cosmology</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <img src="fazlu_photo.png" alt="Fazlu Rahman" class="photo">
-    <h1>Fazlu Rahman</h1>
-    <p>I am a Postdoctoral Research Associate at the <a href="https://mitchell.tamu.edu/" target="_blank" style="color: #FFD100;">Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University</a>. I work in observational cosmology with <a href="https://artsci.tamu.edu/physics-astronomy/contact/profiles/kevin-huffenberger.html" target="_blank" style="color: #FFD100;">Prof. Kevin Huffenberger</a>. My research interests include the statistics of Cosmic Microwave Background (CMB) and Galactic emissions, developing component separation pipelines for CMB experiments, and exploring novel tools and techniques to study random fields, among other topics.</p>
-    
-    <p class="email">Email: <a href="mailto:fazlu@tamu.edu">fazlu@tamu.edu</a></p>
-    
-    <a href="https://orcid.org/0000-0002-6292-1855" target="_blank" class="button">Publications</a>
-    <a href="Fazlu_CV.pdf" target="_blank" class="button">Curriculum Vitae</a>
-    <a href="Fazlu_thesis.pdf" target="_blank" class="button">PhD Thesis</a>
-    <a href="https://www.linkedin.com/in/fazlu-rahman-23a8b2105/" target="_blank" class="button">LinkedIn</a>
+    <!-- Navigation Bar -->
+
+    <nav class="navbar">
+
+        <a href="index.html" class="nav-name">
+            Fazlu Rahman
+        </a>
+
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="Fazlu_CV.pdf" target="_blank">CV</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Home -->
+
+    <div class="home">
+
+        <div class="container">
+
+            <img src="fazlu_photo.png"
+                 alt="Fazlu Rahman"
+                 class="photo">
+
+            <h1>Fazlu Rahman</h1>
+
+
+            <!-- Current Position -->
+
+            <p class="position">
+                Postdoctoral Research Associate<br>
+
+                <a href="https://mitchell.tamu.edu/"
+                   target="_blank">
+                    Mitchell Institute for Fundamental Physics and Astronomy
+                </a>
+                <br>
+
+                Texas A&amp;M University
+            </p>
+
+
+            <p class="research-context">
+    I work with
+    <a href="https://artsci.tamu.edu/physics-astronomy/contact/profiles/kevin-huffenberger.html"
+       target="_blank"
+       rel="noopener noreferrer">
+        Prof. Kevin Huffenberger
+    </a>
+    on CMB cosmology, and am an active member of the
+    <a href="https://simonsobservatory.org/"
+       target="_blank"
+       rel="noopener noreferrer">
+        Simons Observatory
+    </a>
+     collaboration.
+</p>
+
+            <!-- Research Interests -->
+            <div class="research-interests">
+
+                <span class="interest-tag">
+                    Cosmic Microwave Background
+                </span>
+
+                <span class="interest-tag">
+                    Galactic Foregrounds
+                </span>
+
+                <span class="interest-tag">
+                    Non-Gaussian Statistics
+                </span>
+
+
+                <span class="interest-tag">
+                     CMB Mapmaking &amp; Component Separation
+                </span>
+
+                <span class="interest-tag">
+                    ISM, Magnetic Fields, &amp; MHD
+                </span>
+
+            </div>
+
+
+            <!-- Collaboration -->
+
+            <p class="collaboration-note">
+                <em>
+                    Interested in my research or potential collaborations? Please feel free to reach out.
+                </em>
+            </p>
+
+
+            <!-- Email -->
+
+            <p class="email">
+                <a href="mailto:fazlu@tamu.edu">
+                    fazlu@tamu.edu
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+    </div>
+
 </div>
 
-</body>
-</html>
 
+<div class="background-credit">
+    Background image:
+    <a href="https://www.magnific.com/free-ai-image/galaxy-wallpaper-warm-colors_280118303.htm"
+       target="_blank"
+       rel="noopener noreferrer">
+        Freepik - Magnific.com
+    </a>
+</div>
+
+
+</body>
+
+</html>
